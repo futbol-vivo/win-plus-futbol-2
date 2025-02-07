@@ -11,9 +11,9 @@
 <body>
 <div id="player"></div>
 <script>
-    var playbackURL = "https://bmv3.fubohd.com:443/load/winsports2/mono.m3u8?token=f0d5b132fe725477cdce81d7c7ff7e9271485ca6-55-1738914393-1738878393";
+    var playbackURL = "https://cgxheq.fubohd.com:443/load/winsports2/mono.m3u8?token=390f3949f2fa3dfc6de18abda69b36cedd6a31fd-d9-1738976098-1738940098";
     var p2pConfig = {
-        live: false,
+        live: true,
         trackerZone: 'us',    
     }
     P2PEngineHls.tryRegisterServiceWorker(p2pConfig).then(() => {
@@ -23,7 +23,7 @@
             poster: '',
             width: '100%',
             height: '100%',
-            autoPlay: true,
+            autoPlay: false,
             plugins: [],
             mediacontrol: {seekbar: "#D4ED31", buttons: "#FFFFFF"},
 
